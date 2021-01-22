@@ -1,9 +1,16 @@
 <!doctype html>
 <html>
 	<head>
-		<title>1D30M - 웹 기초.</title>
+		<title>1D30M - React</title>
 		<meta charset="utf-8" />
 		<style>
+			#grid{
+				display: grid;
+				grid-template-columns: 150px 1fr;
+			}
+			#active{
+				color:red;
+			}
 			h1{
 				text-align:center;
 				font-size:45px;
@@ -42,16 +49,22 @@
 	</head>
 	<body>
 		<h1>
-			<a href="./index.html" id="logo">Web</a>
+			<a href="../index.html">Web</a>
 		</h1>
 		<p class="sublogo">
 			웹 공부를 위한 발버둥
 		</p>
 		<ol>
-			<li><a href="./posts/1.html" class="saw">HTML</a></li>
-			<li><a href="./posts/2.html" class="saw">CSS</a></li>
-			<li><a href="./posts/3.html" class="saw">JavaScript</a></li>
-			<li><a href="./posts/4.html" class="saw">React</a></li>
+			<li><a href="./1.html" class="saw">HTML</a></li>
+			<li><a href="./2.html" class="saw">CSS</a></li>
+			<li><a href="./3.html" class="saw">JavaScript</a></li>
+			<li><a href="./4.html" class="saw" id="active">React</a></li>
 		</ol>
+		<h2>
+			React
+		</h2>
+		<p>
+			React (also known as <strong>React.js</strong> or ReactJS) is an open-source, front end, <strong><u>JavaScript library</strong> for building user interfaces or UI components.</u> It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+		</p>
 	</body>
 </html>
