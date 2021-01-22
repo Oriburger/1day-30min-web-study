@@ -3,42 +3,7 @@
 	<head>
 		<title>1D30M - 웹 기초.</title>
 		<meta charset="utf-8" />
-		<style>
-			h1{
-				text-align:center;
-				font-size:45px;
-				border-bottom : gray solid 1px;
-				margin-bottom : 0px;
-				margin-top : 0px;
-				padding-bottom : 10px;
-				padding-top : 15px;
-			}
-			ol{
-				margin-top : 0px;
-				padding : 20px;
-				border-right : gray solid 1px;
-				width:100px;
-			}
-			a, #logo{
-				color:black;
-				text-decoration : none;
-			}
-			body{
-				margin:30px;
-			}
-			.sublogo{
-				border-bottom : gray solid 1px;
-				padding-bottom : 5px;
-				padding-top : 5px;
-				margin-top : 0px;
-				margin-bottom : 0px;
-				text-align : center;
-				font-size:16px;
-			}
-			.saw{
-				color:gray;
-			}
-		</style>
+		<link rel="stylesheet" href="./css/main.css"/>
 	</head>
 	<body>
 		<h1>
@@ -47,11 +12,16 @@
 		<p class="sublogo">
 			웹 공부를 위한 발버둥
 		</p>
-		<ol>
-			<li><a href="./posts/1.html" class="saw">HTML</a></li>
-			<li><a href="./posts/2.html" class="saw">CSS</a></li>
-			<li><a href="./posts/3.html" class="saw">JavaScript</a></li>
-			<li><a href="./posts/4.html" class="saw">React</a></li>
-		</ol>
+		<div id="grid">
+			<div class="nav">
+				<ol>
+					<li><a href="./posts/1.html" class="saw">HTML</a></li>
+					<li><a href="./posts/2.html" class="saw">CSS</a></li>
+					<li><a href="./posts/3.html" class="saw">JavaScript</a></li>
+					<li><a href="./posts/4.html" class="saw">React</a></li>
+				</ol>
+			</div>
+			<div></div>
+		</div>
 	</body>
 </html>
